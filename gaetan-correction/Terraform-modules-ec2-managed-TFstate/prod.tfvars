@@ -1,0 +1,5 @@
+aws_region = "us-east-1"
+ami_id = "ami-0ddc798b3f1a5117e"
+instance_type = "t3.micro"
+instance_name = "Assignment10-server-prod"
+dynamodb_table_name = "terraform-state-lock-prod"
