@@ -51,3 +51,31 @@ def count_vowels(n):
     vowels = "aeiouAEIOU"
     return sum(1 for char in n if char in vowels)
 print(count_vowels("hello world"))
+# Using a for loop to print numbers from 1 to 10
+for num in range(1, 11):
+    print(num)
+print(range(11))
+def multiply(a, b):
+    return a * b
+
+# Arithmetic Operators
+# Addition
+def addition(a, b):
+    return a + b
+print((4+7))
+# Substraction
+def substraction(a, b):
+    return a - b
+print((12-8))
+# multiplication
+def multiplication(a, b):
+    return a * b
+print(multiply(4, 5))
+# Division
+def divide(a, b):
+    return a // b
+print((12//6))
+# Modulus
+def modulus(a, b):
+    return a % b
+print((17 % 15))  
